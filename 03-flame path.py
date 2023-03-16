@@ -9,7 +9,7 @@ while True:
     y = pos.y
     z = pos.z
     mc.postToChat("x=" + str(x) + " y=" + str(y) + " z=" + str(z))
-    flower = 51
-    mc.setBlock(x,y,z,flower)
-    mc.setBlock(x+1, y, z, 46)
+    flame = 51
+    mc.setBlock(x,y,z,flame)
+    #mc.setBlock(x+1, y, z, 46)
     time.sleep(0.2)
